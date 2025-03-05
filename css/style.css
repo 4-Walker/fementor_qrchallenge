@@ -35,19 +35,24 @@ body {
     border-radius: 20px;
 }
 
-.main-container h2 {
+.main-container h1 {
     color: #1f3251;
+    padding: 0px 12px;
     margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .main-container p {
     color: #68778d;
-    margin-top: 20px;
+    padding: 0px 12px;
+    margin: 20px 0px;
+    font-weight: 400;
 }
 
 @media (min-width: 550px) {
     .main-container {
-        max-width: 320px;
+        max-width: 325px;
     }
 }
 
